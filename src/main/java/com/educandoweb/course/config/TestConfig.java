@@ -19,7 +19,7 @@ public class TestConfig implements CommandLineRunner {
 	private UserRepository userRepository;
 
 	
-	/*Rodar assim que projeto for iniciado*/
+	/*Rodar assim que projeto for iniciado */
 	@Override
 	public void run(String... args) throws Exception {
 		User u1 = new User(null, "Maria Brown", "maria@gmail.com", "988888888", "123456");
