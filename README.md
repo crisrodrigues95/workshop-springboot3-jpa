@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-Projeto para colocar em prática os conceitos de JPA e Springboot, implementando CRUD de um sistema back-end simulado de compras de compras.
+Projeto para colocar em prática os conceitos de JPA e Springboot, implementando CRUD de um sistema back-end simulado de compras.
 Este projeto foi realizado no curso **Java COMPLETO 2023 Programação Orientada a Objetos +Projetos**, do professor Nélio Alves.
 
 
