@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -29,8 +30,8 @@ public class UserResouce {
 	/*Controlador rest*/
 	
 	@GetMapping
-	public ResponseEntity<List<User>> findAll(){
-		List<User> list =  service.findAll();
+	public ResponseEntity<List<User>> findAll(@RequestParam(required = false) String name){
+		List<User> list = name == null ? service.findAll() : service.findByName(name);
 		return ResponseEntity.ok().body(list);
 	}
 	

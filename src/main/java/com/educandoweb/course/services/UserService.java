@@ -25,6 +25,10 @@ public class UserService {
 	public List<User> findAll(){
 		return repository.findAll();
 	}
+
+	public List<User> findByName(String name){
+		return repository.findByNameContainingIgnoreCase(name);
+	}
 	
 	public User findById(Long id) {
 		Optional<User> obj = repository.findById(id);

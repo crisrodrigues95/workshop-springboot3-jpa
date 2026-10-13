@@ -18,6 +18,10 @@ public class OrderService {
 	public List<Order> findAll(){
 		return repository.findAll();
 	}
+
+	public Order insert(Order obj) {
+		return repository.save(obj);
+	}
 	
 	public Order findById(Long id) {
 		Optional<Order> obj = repository.findById(id);
