@@ -22,7 +22,7 @@ Este projeto foi realizado no curso **Java COMPLETO 2023 Programação Orientada
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: Java 17, Postman, STS
+Pré-requisitos: Java 25, Postman, STS
 
 
 
