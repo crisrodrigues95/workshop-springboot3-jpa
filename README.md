@@ -11,9 +11,9 @@ Este projeto foi realizado no curso **Java COMPLETO 2023 Programação Orientada
 # Tecnologias utilizadas
 ## Back end
 - Java
-- Spring Boot
+- Spring Boot 3.5.16
 - JPA / Hibernate
-- Maven
+- Maven 3.9.15 (Maven Wrapper)
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/crisrodrigues95/assets/blob/main/work-sping-jpa/domain-model.png)
