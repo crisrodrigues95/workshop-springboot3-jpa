@@ -10,7 +10,7 @@ Este projeto foi realizado no curso **Java COMPLETO 2023 Programação Orientada
 
 # Tecnologias utilizadas
 ## Back end
-- Java 25
+- Java 21
 - Spring Boot 3.5.16
 - JPA / Hibernate
 - Maven 3.9.15 (Maven Wrapper)
@@ -22,13 +22,13 @@ Este projeto foi realizado no curso **Java COMPLETO 2023 Programação Orientada
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: Java 25, Postman, STS
+Pré-requisitos: Java 21, Postman, STS
 
 
 
 
 # Autor
 
-Cristhian Araujo Rodrigues
+Cristhian Araujo Rodrigues, Desenvolvedor java
 
 https://www.linkedin.com/in/cristhian-a-rodrigues/
