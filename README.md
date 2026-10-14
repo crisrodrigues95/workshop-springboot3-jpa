@@ -10,7 +10,7 @@ Este projeto foi realizado no curso **Java COMPLETO 2023 Programação Orientada
 
 # Tecnologias utilizadas
 ## Back end
-- Java
+- Java 25
 - Spring Boot 3.5.16
 - JPA / Hibernate
 - Maven 3.9.15 (Maven Wrapper)
